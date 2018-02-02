@@ -1,0 +1,11 @@
+{
+  "name": "12factor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nelreina/12factor.git",
+  "author": "Nelson Reina <nelson.reina@ibis-maganement.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.0"
+  }
+}
