@@ -6,6 +6,12 @@
   "author": "Nelson Reina <nelson.reina@ibis-maganement.com>",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^5.0.0"
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "nodemon": "^1.14.12"
+  },
+  "scripts": {
+    "dev": "nodemon --watch src src/index.js"
   }
 }
