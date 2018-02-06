@@ -1,7 +1,7 @@
 version: '2'
 services: 
   app:
-    image: ibis/12factor:1.0
+    image: ibis/12factor:1.0.2
     env_file:
       - .env
     command: node src/index.js
